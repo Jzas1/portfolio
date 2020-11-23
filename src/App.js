@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About'
+import Skills from './components/Skills'
+import Portfolio  from './components/Portfolio';
+import Footer from './components/Footer';
+import resumeData from './my-info'
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <Skills resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
+      </div>
+    );
+  }
+}
+
+export default App;
