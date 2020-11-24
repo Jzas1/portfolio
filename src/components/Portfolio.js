@@ -13,7 +13,8 @@ class Portfolio extends Component {''
             <div className="work-grid">
             
             <div className="work-item">
-            <a href="https://jz-ecom.herokuapp.com/" title="Jz-ecom">
+            <a href="https://github-finder-jz.herokuapp.com"
+            title="Jz-ecom">
                 <img src={img1} /></a>
                     <h1>Github Finder</h1>
                     <p>This is a github finder I build with React using the git hub API</p>
@@ -23,8 +24,8 @@ class Portfolio extends Component {''
 
                 
                 <div className="work-item">
-            <a href="https://github-finder-jz.herokuapp.com"
-            title="Jz-ecom">
+
+                <a href="https://jz-ecom.herokuapp.com/" title="Jz-ecom">
             <img src={img2} />
             </a>
                         <h1>E-commerce Store</h1>
